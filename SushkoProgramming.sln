@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SushkoProgramming.WEB", "SushkoProgramming.WEB\SushkoProgramming.WEB.csproj", "{FD1A4F6B-4D63-4D8A-8FD0-7CEA380F5446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SushkoProgramming.DAL", "SushkoProgramming.DAL\SushkoProgramming.DAL.csproj", "{C2F691A5-D382-44A8-B99C-C6C12BA6EF92}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD1A4F6B-4D63-4D8A-8FD0-7CEA380F5446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1A4F6B-4D63-4D8A-8FD0-7CEA380F5446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1A4F6B-4D63-4D8A-8FD0-7CEA380F5446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1A4F6B-4D63-4D8A-8FD0-7CEA380F5446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F691A5-D382-44A8-B99C-C6C12BA6EF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F691A5-D382-44A8-B99C-C6C12BA6EF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F691A5-D382-44A8-B99C-C6C12BA6EF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F691A5-D382-44A8-B99C-C6C12BA6EF92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

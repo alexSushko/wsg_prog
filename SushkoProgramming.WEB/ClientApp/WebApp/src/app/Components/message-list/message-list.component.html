@@ -1,0 +1,8 @@
+<div class="wrapper" #scrollMe>
+  <mat-list>
+    <mat-list-item *ngFor="let message of messages" [ngClass]="{'own': message.user==user}">
+      <h3 matLine>{{message.user}}</h3>
+      <p matLine>{{message.data}}</p>
+    </mat-list-item>
+  </mat-list>
+</div>

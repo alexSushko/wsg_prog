@@ -1,0 +1,20 @@
+<mat-card class="card">
+  <mat-card-header class='header'>
+    <div>
+      <h2>Messages</h2>
+    </div>
+    <div>
+      <mat-form-field>
+        <input type="text" matInput placeholder="Enter your name" [(ngModel)]="user">
+      </mat-form-field>
+    </div>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="list">
+      <app-message-list [user]="user"></app-message-list>
+    </div>
+    <div class="new">
+      <app-new-message [user]="user" (create)="newMessage($event)"></app-new-message>
+    </div>
+  </mat-card-content>
+</mat-card>

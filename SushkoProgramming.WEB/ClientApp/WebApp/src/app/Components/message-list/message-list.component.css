@@ -1,0 +1,10 @@
+.own{
+    text-align: right;
+}
+.wrapper{
+    height: 300px;
+    overflow-y: scroll;
+}
+.mat-list{
+    bottom:0;
+}
